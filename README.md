@@ -30,9 +30,21 @@ Npm 5.3.0
 
 ## Temas abordados 
 
+* ngFor
+
+
 
 ## Comandos importantes
 
+```
+ng new
+```
+```
+ng server
+```
+```
+ng build
+```
 
 ## Servidor de desenvolvimento
 
