@@ -1,0 +1,23 @@
+<br>
+<hr>
+<h3>{{ subtitleDiretivas }}</h3>
+
+<ul>
+
+  <li>ngIf</li>
+    <div *ngIf="isAdmin">
+      Administrador
+    </div>
+  <br/>
+  <br/>
+
+  <li>ngSwitch</li>
+  <div [ngSwitch]="profile">
+    <p *ngSwitchCase="2">Profile 2</p>
+    <p *ngSwitchCase="3">Profile 3</p>
+    <p *ngSwitchDefault>Profile Default</p>
+  </div>
+<br/>
+<br/>
+
+</ul>

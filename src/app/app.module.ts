@@ -5,13 +5,15 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { TaskListComponent } from './task-list/task-list.component';
 import { PipesComponent } from './pipes/pipes.component';
+import { DiretivasComponent } from './diretivas/diretivas.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     TaskListComponent,
-    PipesComponent
+    PipesComponent,
+    DiretivasComponent
   ],
   imports: [
     BrowserModule,

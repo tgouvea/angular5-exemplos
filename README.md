@@ -33,6 +33,8 @@ Npm 5.3.0
 * ngFor
 * components
 * property binding
+* pipes
+* diretivas
 
 
 
@@ -46,6 +48,10 @@ ng server
 ```
 ```
 ng build
+```
+
+```
+ng g component nome_do_componente
 ```
 
 ## Servidor de desenvolvimento
