@@ -13,9 +13,12 @@ export class TaskListComponent implements OnInit {
   }
 
   subtitleNgFor = '* ngFor';
+  subtitlePropertybinding = '* Property binding';
 
   tasks = [];
   task = "";
+
+  isAdmin = false;
 
   add():void{
     this.tasks.push(this.task);

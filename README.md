@@ -31,6 +31,8 @@ Npm 5.3.0
 ## Temas abordados 
 
 * ngFor
+* components
+* property binding
 
 
 

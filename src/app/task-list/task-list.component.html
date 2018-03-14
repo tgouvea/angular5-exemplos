@@ -5,7 +5,16 @@
   Adicionar a lista
 </button>
 <ul>
-  <li *ngFor="let item of tasks">
-    {{ item }}
+  <li *ngFor="let item of tasks" [innerHtml]="item">
   </li>
 </ul>
+<br>
+<hr>
+<h3>{{ subtitlePropertybinding }}</h3>
+<div [hidden] = "isAdmin">
+    Usuário
+</div>
+
+<div [hidden] = "!isAdmin">
+  Adminstrador
+</div>
