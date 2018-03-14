@@ -1,0 +1,30 @@
+<br>
+<hr>
+<h3>{{ subtitlePipes }}</h3>
+
+<ul>
+
+  <li>Json</li>
+  {{ user | json}}
+  <br/>
+  <li>Uppercase</li>
+  {{ upperText | uppercase}}
+  <br/>
+  <li>lowercase</li>
+  {{ lowerText | lowercase}}
+  <br/>
+  <li>percent</li>
+  {{ percentValue | percent}}
+  <br/>
+  
+  <li>date</li>
+  {{ data | date : 'dd/MM/yyyy'}}
+  <br/>
+
+  <li>currency</li>
+  {{ dinheiro | currency : 'R$ '}}
+  <br/>
+
+
+
+</ul>
