@@ -9,6 +9,7 @@ import { DiretivasComponent } from './diretivas/diretivas.component';
 import { ServicosComponent } from './servicos/servicos.component';
 import { ServicoService } from './servicos/servico.service';
 import { HttpModule } from '@angular/http';
+import { ValidacaoComponent } from './validacao/validacao.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { HttpModule } from '@angular/http';
     TaskListComponent,
     PipesComponent,
     DiretivasComponent,
-    ServicosComponent
+    ServicosComponent,
+    ValidacaoComponent
   ],
   imports: [
     BrowserModule,
