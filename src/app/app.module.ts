@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { TaskListComponent } from './task-list/task-list.component';
 import { PipesComponent } from './pipes/pipes.component';
 import { DiretivasComponent } from './diretivas/diretivas.component';
+import { ServicosComponent } from './servicos/servicos.component';
+import { ServicoService } from './servicos/servico.service';
+import { HttpModule } from '@angular/http';
 
 
 @NgModule({
@@ -13,13 +16,15 @@ import { DiretivasComponent } from './diretivas/diretivas.component';
     AppComponent,
     TaskListComponent,
     PipesComponent,
-    DiretivasComponent
+    DiretivasComponent,
+    ServicosComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpModule
   ],
-  providers: [],
+  providers: [ServicoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

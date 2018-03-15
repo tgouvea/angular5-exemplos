@@ -1,0 +1,15 @@
+<br>
+<hr>
+<h3>{{ subtitleServicos }}</h3>
+
+<div>
+
+  <ul *ngFor="let servico of servicos; let i=index">
+      <div *ngIf="i<5">
+        <li>
+          {{ servico.id }} - {{ servico.name }} - {{ servico.email }}
+        </li>
+      </div>
+  </ul>
+
+</div>  

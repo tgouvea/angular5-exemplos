@@ -35,7 +35,7 @@ Npm 5.3.0
 * property binding
 * pipes
 * diretivas
-
+* services
 
 
 ## Comandos importantes
